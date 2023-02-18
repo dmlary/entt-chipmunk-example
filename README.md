@@ -3,10 +3,14 @@ This repo contains a rough integration between EnTT & Chipmunk2d for collision
 detection, along with an ImGui-based entity editor for Chipmunk2d components.
 
 ### Features
-* chipmunk2d collision detection
-* imgui entity editing
-* per-system stepping
-* per-frame stepping
+* Chipmunk2D collision detection
+* ImGui-based entity editing
+* System/frame stepping
+
+https://user-images.githubusercontent.com/857742/219883858-b0f1ce9c-9979-481a-8add-35476376c6fa.mov
+
+### Assets
+Graphics assets from [kenney.nl](https://www.kenney.nl/)
 
 ## Dependencies
 * [entt](https://github.com/skypjack/entt)
@@ -19,6 +23,7 @@ detection, along with an ImGui-based entity editor for Chipmunk2d components.
 Note: This project builds in my environment, but I make no guarantees that
 it'll work anywhere else.  This project is really just intended as a code
 reference.
+
 Note 2: Oh yea, definitely a pain in the butt because the shaders require
 `sokol-shdc` from sokol-tools to build
 
@@ -184,5 +189,10 @@ src
 ## Why is this a public repo?
 When I started looking at ECS libraries, and Chipmunk2d, I was unable to find
 any deep examples integrating the two.  So when I finally got a basic
-implementation working
+implementation working I decided to share it.
+
+## Contribution
+Honestly, fork this repo, create a better version, and leave it public.
+I think there's more value in seeing multiple implementations versus a single
+"correct" one.
 
