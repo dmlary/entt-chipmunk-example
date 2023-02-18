@@ -97,7 +97,7 @@ but I don't want to clean it up right now.
 
 The result of this architecture is that I had to create additional systems to
 prune any orphaned `Shape<T>` components once their parent entity is destroyed
-([here](src/physics/plugin.cpp#L173:L28)).
+([here](src/physics/plugin.cpp#L173:L208)).
 
 ### ImGui
 The sokol imgui integration is one of the soothest I've seen.
